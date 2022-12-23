@@ -35,4 +35,11 @@ export const MUSICA: IRegistrazione[] = [
     immagine:
       'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/db/df/48dbdf76-ce53-fc05-2fd2-9f4a463f99be/886447604755.jpg/316x316bb.webp',
   },
+  {
+    autore: 'Eminem',
+    titolo: 'SUPERMAN',
+    prezzo: '20',
+    immagine:
+      'https://e-cdn-images.dzcdn.net/images/cover/ec3c8ed67427064c70f67e5815b74cef/264x264-000000-80-0-0.jpg',
+  },
 ];
