@@ -1,0 +1,16 @@
+td {
+  padding-right: 25px;
+  border-bottom: groove;
+  border-right: groove;
+  text-align: center;
+}
+
+th {
+  border-bottom: groove;
+  text-align: center;
+}
+
+table {
+  border: groove;
+  text-align: center;
+}

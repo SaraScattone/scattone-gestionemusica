@@ -1,0 +1,24 @@
+<div>
+  <label>Inserisci filtro: </label>
+  <input [(ngModel)]="testo" placeholder="" />
+</div>
+<h3 id="filtro">Filtrato per {{ testo }}</h3>
+<div>
+  <table>
+    <tr>
+      <button (click)="cambiaImmagine()">Mostra immagini</button>
+    </tr>
+    <tr>
+      <th>Autore</th>
+      <th>Titolo</th>
+      <th>Prezzo</th>
+      <th>Immagine</th>
+    </tr>
+    <tr *ngFor="let m of musica">
+      <td>{{ m.autore }}</td>
+      <td>{{ m.titolo }}</td>
+      <td>{{ m.prezzo }}</td>
+      <td><img *ngIf="mostraImmagine" [src]="m.immagine" width="100" /></td>
+    </tr>
+  </table>
+</div>
